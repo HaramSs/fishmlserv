@@ -1,0 +1,19 @@
+[project]
+name = "fishmlserv"
+version = "0.1.0"
+description = "Serving Machine Learning Model - using sklearn(KNeighborsClassifier) using FastApi, Fly.io"
+authors = [
+    {name = "HaramSs", email = "haram8274@gmail.com"},
+]
+dependencies = [
+    "fishmlserv @ file:///${PROJECT_ROOT}/",
+    "fastapi>=0.112.2",
+    "uvicorn[standard]>=0.30.6",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
