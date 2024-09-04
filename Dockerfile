@@ -1,4 +1,4 @@
-FROM docker pull haramss/isdomi:0.8.4
+FROM haramss/isdomi:0.8.4
 
 WORKDIR /code
 
