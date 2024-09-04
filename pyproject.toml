@@ -6,7 +6,6 @@ authors = [
     {name = "HaramSs", email = "haram8274@gmail.com"},
 ]
 dependencies = [
-    "typer>=0.12.5",
 ]
 requires-python = "==3.11.*"
 readme = "README.md"
