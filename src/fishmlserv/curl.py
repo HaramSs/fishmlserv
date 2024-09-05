@@ -6,11 +6,11 @@ def get(l, w, url="http://localhost:8765/fish"):
     }
 
     params = {
-        'length': '11',
-        'weight': '11',
+        'length': l,
+        'weight': w,
     }
 
-    response = requests.get('http://localhost:8765/fish', params=params, headers=headers)
+    response = requests.get(url, params=params, headers=headers)
     j = response.json()
     r = j.get("prediction")
     return r
